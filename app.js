@@ -7,8 +7,18 @@ function adicionarAmigo() {
     if (nome !== "") {
         amigos.push(nome);
         document.getElementById("amigo").value = "";
-        //atualizarLista();
+        atualizarLista();
     } else {
         alert("Por favor, insira um nome válido.");
     }
 };
+
+function atualizarLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+    for (let i = 0; i < amigos.length; i++) {
+        let item = document.createElement("li");
+        item.textContent = amigos[i];
+        lista.appendChild(item);
+    }
+}    

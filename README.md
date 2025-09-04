@@ -7,7 +7,7 @@ Esta aplicação permite inserir nomes de amigos em uma lista e realizar um sort
 
 - Adicione os nomes dos participantes.
 - Clique em "Sortear" para descobrir quem é o amigo secreto de cada um.
-- O sorteio é automático e garante que ninguém tire a si mesmo!
+- O sorteio é automático.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -19,11 +19,17 @@ Esta aplicação permite inserir nomes de amigos em uma lista e realizar um sort
 
 Este projeto foi desenvolvido como parte de um desafio para praticar lógica, manipulação de listas e DOM com JavaScript.
 
-## ▶️ Como rodar
+## ▶️ Como acessar e rodar
 
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` no seu navegador favorito.
-3. Divirta-se organizando seu amigo secreto!
+Você pode utilizar a aplicação de duas formas:
+
+1. **Abrir o site do projeto**  
+   Acesse agora mesmo pelo link: [challenge-amigo-secreto](https://leticianeres.github.io/challenge-amigo-secreto/)
+
+2. **Executar localmente**
+   - Baixe ou clone este repositório.
+   - Abra o arquivo `index.html` no seu navegador favorito.
+   - Divirta-se organizando seu amigo secreto!
 
 ## 📸 Imagem da aplicação
 
